@@ -1,4 +1,4 @@
-> [<img src="https://img.shields.io/badge/Telegram-%40Me-orange">](https://t.me/roddyfred)
+> [<img src="https://img.shields.io/badge/Telegram-%40Me-orange">]
 
 # Use Node.Js 18 or later
 
@@ -15,9 +15,9 @@
 | Binding a proxy to a session/query_id |    ✅     |
 | Random sleep time between clicks      |    ✅     |
 
-### [How to add query id](https://github.com/Freddywhest/RockyRabbitBot/blob/main/AddQueryId.md)
+### [How to add query id] Video Coming
 
-## [Settings](https://github.com/FreddyWhest/VertusBot/blob/main/.env-example)
+## [Settings](https://github.com/skhassandx/Vertus)
 
 | Settings                      | Description                                                               |
 | ----------------------------- | ------------------------------------------------------------------------- |
@@ -33,43 +33,44 @@
 
 ## Installation
 
-You can download [**Repository**](https://github.com/FreddyWhest/VertusBot) by cloning it to your system and installing the necessary dependencies:
+You can download [**Repository**](https://github.com/skhassandx/Vertus) by cloning it to your system and installing the necessary dependencies:
 
 ```shell
-~ >>> git clone https://github.com/FreddyWhest/VertusBot.git
-~ >>> cd VertusBot
+~ >>> git clone https://github.com/skhassandx/Vertus.git
+~ >>> cd Vertus
+~ >>> cd 2
 
 #Linux and MocOS
-~/VertusBot >>> chmod +x check_node.sh
-~/VertusBot >>> ./check_node.sh
+~/Vertus/4 >>> chmod +x check_node.sh
+~/Vertus/4 >>> ./check_node.sh
 
 OR
 
-~/VertusBot >>> npm install
-~/VertusBot >>> cp .env-example .env
-~/VertusBot >>> nano .env # Here you must specify your API_ID and API_HASH , the rest is taken by default
-~/VertusBot >>> node index.js
+~/Vertus/4 >>> npm install
+~/Vertus/4 >>> cp .env-example .env
+~/Vertus/4 >>> nano .env # Here you must specify your API_ID and API_HASH , the rest is taken by default
+~/Vertus/4 >>> node index.js
 
 #Windows
-1. Double click on INSTALL.bat in VertusBot directory to install the dependencies
-2. Double click on START.bat in VertusBot directory to start the bot
+1. Double click on INSTALL.bat in Vertus/4 directory to install the dependencies
+2. Double click on START.bat in Vertus/4 directory to start the bot
 
 OR
 
-~/VertusBot >>> npm install
-~/VertusBot >>> cp .env-example .env
-~/VertusBot >>> # Specify your API_ID and API_HASH, the rest is taken by default
-~/VertusBot >>> node index.js
+~/Vertus/4 >>> npm install
+~/Vertus/4 >>> cp .env-example .env
+~/Vertus/4 >>> # Specify your API_ID and API_HASH, the rest is taken by default
+~/Vertus/4 >>> node index.js
 ```
 
 Also for quick launch you can use arguments, for example:
 
 ```shell
-~/VertusBot >>> node index.js --action=1
+~/Vertus/4 >>> node index.js --action=1
 
 OR
 
-~/VertusBot >>> node index.js --action=2
+~/Vertus/4 >>> node index.js --action=2
 
 #1 - Create session
 #2 - Run clicker
